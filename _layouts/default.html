@@ -6,11 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+
+    <!--    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">-->
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
     <!-- Nucleo Icons -->
-    <link href="/assets/css/nucleo-icons.css" rel="stylesheet" />
-    <link href="/assets/css/nucleo-svg.css" rel="stylesheet" />
+<!--    <link href="/assets/css/nucleo-icons.css" rel="stylesheet" />-->
+<!--    <link href="/assets/css/nucleo-svg.css" rel="stylesheet" />-->
+    <link href="/assets/css/material-kit.css" rel="stylesheet" />
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js" integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous"></script>
@@ -25,42 +28,53 @@
     <header class="header-1">
         {% include navigation.html %}
     </header>
-
-<!--    <div class="page-header">-->
-<!--        <div class="page-header-image" style="background-image: url('https://app.creative-tim.com/argon_placeholder/ill/p2.svg')"></div>-->
-<!--        <div class="container">-->
-<!--            <div class="row">-->
-<!--                <div class="col-lg-5 col-md-7 mr-auto text-left d-flex justify-content-center flex-column">-->
-<!--                    <h3 class="display-3">Argon Design System</h3>-->
-<!--                    <p class="lead mt-0">The time is now for it to be okay to be great. People in this world shun people for being great. For being a bright color.</p>-->
-<!--                    <br>-->
-<!--                    <div class="buttons"><a class="btn btn-danger" href="javascript:;">Got it</a></div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-    <div class="page-header header-filter clear-filter" data-parallax="true" style="background-image: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1952&q=80');">
+    <div class="page-header header-filter clear-filter purple-filter" data-parallax="true" style="background-image: url('/assets/img/Artboard 1.jpg');">
         <div class="container">
             <div class="row">
                 <div class="col-md-8 ml-auto mr-auto">
-                    <div class="brand">
-                        <h1>Material Kit
-                            <span class="pro-badge">
-                Pro
-              </span>
-                        </h1>
-                        <h3 class="title">Start the Development With A Badass Bootstrap 4 UI Kit inspired by Material Design.</h3>
-                    </div>
+
                 </div>
             </div>
         </div>
     </div>
-    <section class="section blogs-1">
-        <div class="container">
-            {{ content }}
-        </div>
-    </section>
-</div>
+   <main class="main main-raised">
+       <section class="section blogs-1">
+           <div class="container">
+               {{ content }}
+           </div>
+       </section>
+   </main>
 
+</div>
+<!--   Core JS Files   -->
+<script src="/assets/js/core/jquery.min.js" type="text/javascript"></script>
+<script src="/assets/js/core/popper.min.js" type="text/javascript"></script>
+<script src="/assets/js/core/bootstrap-material-design.min.js" type="text/javascript"></script>
+<script src="/assets/js/plugins/moment.min.js"></script>
+<!--	Plugin for the Datepicker, full documentation here: https://github.com/Eonasdan/bootstrap-datetimepicker -->
+<script src="/assets/js/plugins/bootstrap-datetimepicker.js" type="text/javascript"></script>
+<!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+<script src="/assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
+<!--  Google Maps Plugin    -->
+<!-- Control Center for Material Kit: parallax effects, scripts for the example pages etc -->
+<script src="/assets/js/material-kit.js?v=2.0.7" type="text/javascript"></script>
+<script>
+    $(document).ready(function() {
+        //init DateTimePickers
+        materialKit.initFormExtendedDatetimepickers();
+
+        // Sliders Init
+        materialKit.initSliders();
+    });
+
+
+    function scrollToDownload() {
+        if ($('.section-download').length != 0) {
+            $("html, body").animate({
+                scrollTop: $('.section-download').offset().top
+            }, 1000);
+        }
+    }
+</script>
 </body>
 </html>

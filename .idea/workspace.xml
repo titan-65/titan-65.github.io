@@ -19,10 +19,22 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b2dc6cf-698e-40b1-95dd-555c9a314dd4" name="Default Changelist" comment="Post layout changes">
+    <list default="true" id="3b2dc6cf-698e-40b1-95dd-555c9a314dd4" name="Default Changelist" comment="Post layout changes v2">
+      <change afterPath="$PROJECT_DIR$/assets/css/material-kit.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/material-kit.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/Artboard 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/core/bootstrap-material-design.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/material-kit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/material-kit.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/material-kit.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/plugins/bootstrap-datetimepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/plugins/jquery.sharrre.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/navigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/navigation.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/default.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.markdown" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,17 +63,20 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Vantol Bennett\Documents\titan-io\assets\img" />
+      <recent name="C:\Users\Vantol Bennett\Documents\titan-io\assets\js" />
+      <recent name="C:\Users\Vantol Bennett\Documents\titan-io\assets\css" />
+      <recent name="C:\Users\Vantol Bennett\Documents\titan-io" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Vantol Bennett\Documents\titan-io\assets" />
       <recent name="C:\Users\Vantol Bennett\Documents\titan-io\_layouts" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Vantol Bennett\Documents\titan-io" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -73,7 +88,8 @@
       <option name="presentableId" value="Default" />
       <updated>1603588346281</updated>
       <workItem from="1603588347317" duration="6374000" />
-      <workItem from="1603605485732" duration="2101000" />
+      <workItem from="1603605485732" duration="2459000" />
+      <workItem from="1603658811545" duration="4780000" />
     </task>
     <task id="LOCAL-00001" summary="Post layout changes">
       <created>1603607263821</created>
@@ -82,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603607263821</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Post layout changes v2">
+      <created>1603608655766</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603608655766</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,10 +121,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Post layout changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Post layout changes" />
+    <MESSAGE value="Post layout changes v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Post layout changes v2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1096" y="244" key="run.anything.popup" timestamp="1603588739259">
