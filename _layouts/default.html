@@ -3,8 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <!-- Nucleo Icons -->
+    <link href="/assets/css/nucleo-icons.css" rel="stylesheet" />
+    <link href="/assets/css/nucleo-svg.css" rel="stylesheet" />
+    <!-- Font Awesome Icons -->
+    <link href="/assets/css/font-awesome.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/assets/css/creativetim/creativetim.min.css">
+    <link rel="icon" sizes="16x16" href="favicon.ico">
 </head>
 <body>
+<div class="wrapper">
+
+    <header class="header-1">
+        {% include navigation.html %}
+    </header>
+
+<!--    <div class="page-header">-->
+<!--        <div class="page-header-image" style="background-image: url('https://app.creative-tim.com/argon_placeholder/ill/p2.svg')"></div>-->
+<!--        <div class="container">-->
+<!--            <div class="row">-->
+<!--                <div class="col-lg-5 col-md-7 mr-auto text-left d-flex justify-content-center flex-column">-->
+<!--                    <h3 class="display-3">Argon Design System</h3>-->
+<!--                    <p class="lead mt-0">The time is now for it to be okay to be great. People in this world shun people for being great. For being a bright color.</p>-->
+<!--                    <br>-->
+<!--                    <div class="buttons"><a class="btn btn-danger" href="javascript:;">Got it</a></div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+    <section class="section blogs-1">
+        <div class="container">
+            {{ content }}
+        </div>
+    </section>
+</div>
 
 </body>
 </html>
