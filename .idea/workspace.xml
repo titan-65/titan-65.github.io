@@ -20,21 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b2dc6cf-698e-40b1-95dd-555c9a314dd4" name="Default Changelist" comment="Post layout changes v2">
-      <change afterPath="$PROJECT_DIR$/assets/css/material-kit.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/material-kit.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/Artboard 1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/core/bootstrap-material-design.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/material-kit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/material-kit.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/material-kit.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/plugins/bootstrap-datetimepicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/plugins/jquery.sharrre.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/navigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/navigation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/default.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.markdown" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/github-pages.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +76,7 @@
       <updated>1603588346281</updated>
       <workItem from="1603588347317" duration="6374000" />
       <workItem from="1603605485732" duration="2459000" />
-      <workItem from="1603658811545" duration="4780000" />
+      <workItem from="1603658811545" duration="5242000" />
     </task>
     <task id="LOCAL-00001" summary="Post layout changes">
       <created>1603607263821</created>
